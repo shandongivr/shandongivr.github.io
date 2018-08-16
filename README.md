@@ -12,7 +12,7 @@
 回调格式：`回调地址URL`?mobile=`计费号码`&order_time=`包月时间`&result=`状态码`&productid=`产品ID`
 ## 订购
 #### 接口说明
-接口地址：http://27.221.97.44:6638/ivrbaoyue?phone=`计费号码`&productid=`产品ID`&order_time=`包月时间`
+接口地址：**http:**//27.221.97.44:6638/ivrbaoyue?phone=`计费号码`&productid=`产品ID`&order_time=`包月时间`
 #### 参数说明
 **名称**|**属性**|**选项**|**描述**
 -------|--------|--------|--------
