@@ -14,11 +14,20 @@
 #### 接口说明
 >接口地址：**http:**//27.221.97.44:6638/ivrbaoyue?phone=`计费号码`&productid=`产品ID`&order_time=`包月时间`
 #### 参数说明
-**名称**|**属性**|**选项**|**描述**
--------|--------|--------|--------
-phone|字符型|必选|计费号码
-productid|字符型|必选|产品ID
-order_time|字符型|必选|包月时间
+<table>
+   <tr>
+      <th>名称</th><th>属性</th><th>选项</th><th>描述</th>
+   </tr>
+   <tr>
+      <td>phone</td><td>字符型</td><td>必选</td><td>计费号码</td>
+   </tr>
+   <tr>
+      <td>productid</td><td>字符型</td><td>必选</td><td>产品ID</td>
+   </tr>
+   <tr>
+      <td>order_time</td><td>字符型</td><td>必选</td><td>包月时间</td>
+   </tr>
+</table>
 #### 返回说明
 >{"phone":"`计费号码`","productid":"`产品ID`","code":"`状态码`","err_code":"`错误代码`","cause":"`说明`","status_code":"`用户状态码(或没有)`","status_value":"`用户状态说明(或没有)`"}
 ### 取消
